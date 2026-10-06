@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Student Result Management System</h1>
+
+        <div class="form">
+
+            <label>Student Name:</label>
+            <input type="text" id="name" placeholder="Enter student name">
+
+            <label>Roll Number:</label>
+            <input type="text" id="roll" placeholder="Enter roll number">
+
+            <label>OS Marks:</label>
+            <input type="number" id="os" placeholder="Enter marks">
+
+            <label>AIML Marks:</label>
+            <input type="number" id="aiml" placeholder="Enter marks">
+
+            <label>Maths Marks:</label>
+            <input type="number" id="maths" placeholder="Enter marks">
+
+            <label>IoT Marks:</label>
+            <input type="number" id="iot" placeholder="Enter marks">
+
+            <label>Social Marks:</label>
+            <input type="number" id="social" placeholder="Enter marks">
+
+            <button onclick="calculateResult()">Calculate Result</button>
+
+        </div>
+
+        <div class="result" id="result">
+            <h2>Result</h2>
+            <p id="studentName"></p>
+            <p id="studentRoll"></p>
+            <p id="total"></p>
+            <p id="average"></p>
+            <p id="grade"></p>
+            <p id="status"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
